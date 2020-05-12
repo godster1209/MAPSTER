@@ -37,16 +37,6 @@ async def on_message(message):
     if message.content.startswith("-4"):
         await message.channel.send(file=discord.File("1_4.png"))
 
-    #if message.content.startswith("-u"):
-    #    Text = ""
-    #    learn = message.content.split(" ")
-    #    vrsize = len(learn)  # 배열크기
-    #    vrsize = int(vrsize)
-    #    for i in range(1, vrsize):  # 띄어쓰기 한 텍스트들 인식함
-    #        Text = Text + " " + learn[i]
-    #    encText = Text
-    #   await message.channel.send(encText)
-
     
 
 
